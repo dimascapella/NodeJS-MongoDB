@@ -1,0 +1,9 @@
+<h1>Hallo <%= nama %> </h1>
+
+<h4>Daftar Mahasiswa</h4>
+<% mahasiswa.forEach(mhs => { %>
+    <ul>
+        <li>Nama: <%= mhs.nama %> </li>
+        <li>Emial: <%= mhs.email %> </li>
+    </ul>
+<% }) %>
